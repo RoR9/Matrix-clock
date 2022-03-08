@@ -78,11 +78,3 @@ document.addEventListener("keydown",function(e){
     }
 })
 
-//Scoping
-function add(x){
-      function add2(y){
-		  return x+y
-	  }
-}
-let add5=add(5)
-add5(2)
